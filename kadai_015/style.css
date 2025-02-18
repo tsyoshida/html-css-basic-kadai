@@ -1,0 +1,28 @@
+body{
+  font-family: "Arial", "Meiryo", sans-serif; /* bodyのフォント種類を、「"Arial", "Meiryo", sans-serif」 に */
+  text-align: center; /* bodyタグを中央寄せに */
+}
+
+html {
+  font-size: 20px;
+}
+
+.blue {
+  color: skyblue; /* blueクラスをskyblueに指定 */
+}
+
+.pink {
+  color: rgb(255, 192, 203);   /* キーワード で、ピンクを rgb(255, 192, 203) として指定 */
+}
+
+h1{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2rem; /* ルート要素の2倍 */
+  letter-spacing: 1.2em; /* 文字の大きさに対して1.2倍 */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* 適度な影 */
+  border-bottom: 3px solid rgb(115, 115, 114); /* 下線 */
+}
+
+#basic p {
+  font-weight: bold; /* idがbasicのpタグだけ太字に */
+}
